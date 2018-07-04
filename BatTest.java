@@ -1,11 +1,5 @@
-public class GorillaTest {
+public class BatTest {
   public static void main(String[] args) {
-    Gorilla koko = new Gorilla();
-    koko.throwSomething();
-    koko.eatBananas();
-    koko.climb();
-    koko.displayEnergy();
-
     Bat vlad = new Bat();
     vlad.displayEnergy();
     vlad.fly();
@@ -13,5 +7,4 @@ public class GorillaTest {
     vlad.attackTown();
     vlad.displayEnergy();
   }
-
 }
